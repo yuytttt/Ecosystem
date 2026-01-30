@@ -4,9 +4,16 @@ layout: default
 nav_order: 1
 ---
 
-# Ecosystem
-SIR Lab's Ecosystem Guidance.
+# SIR Lab Ecosystem
 
-## EuroSYS 2026 Tutorial
-- 👉 [Start here]({{ site.baseurl }}/EuroSYS2026/)
+This site provides **entry links only**. Detailed content is maintained by each activity owner.
 
+
+## Conference Activities
+- 👉 [Start here]({{ site.baseurl }}/conference-activities/)
+
+## Hackathons
+- 👉 [Start here]({{ site.baseurl }}/hackathons/)
+
+## Other Ecosystem Activities
+- 👉 [Start here]({{ site.baseurl }}/other-ecosystem-activities/)
