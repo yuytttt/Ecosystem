@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "custom.css",
+	"sources": [
+		"custom.scss"
+	],
+	"sourcesContent": [
+		"/* 1. 全局 CSS 变量强制覆盖 */\r\n:root {\r\n  --nav-width: 220px !important;\r\n  --nav-width-mobile: 200px !important;\r\n}\r\n\r\n/* 2. 桌面端布局强制修正 */\r\n@media (min-width: 600px) {\r\n  .side-bar {\r\n    width: 220px !important;\r\n  }\r\n  .main {\r\n    margin-left: 220px !important;\r\n  }\r\n  .main-header {\r\n    left: 220px !important;\r\n    width: calc(100% - 220px) !important;\r\n  }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,8BAA8B;CAC7B,AAAD,IAAK,CAAC,EACJ,WAAW,CAAA,iBAAC,EACZ,kBAAkB,CAAA,iBAAC,GACpB;;AAED,2BAA2B;AAC3B,MAAM,mBACJ,GAAA,AAAA,SAAS,CAAC,EACR,KAAK,EAAE,gBAAgB,GACxB,CACD,AAAA,KAAK,CAAC,EACJ,WAAW,EAAE,gBAAgB,GAC9B,CACD,AAAA,YAAY,CAAC,EACX,IAAI,EAAE,gBAAgB,EACtB,KAAK,EAAE,kBAAkB,CAAC,UAAU,GACrC,EAPA"
+}
