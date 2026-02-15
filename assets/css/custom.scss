@@ -1,22 +1,100 @@
 ---
 ---
 
-/* 1. 全局 CSS 变量强制覆盖 */
-:root {
-  --nav-width: 220px !important;
-  --nav-width-mobile: 200px !important;
+/* 使用更高优先级的选择器强制覆盖主题样式 */
+
+/* 超级测试 - 先确认这个能生效 */
+html body {
+  background-color: #f0f8ff !important; /* 淡蓝色背景，更容易看到变化 */
 }
 
-/* 2. 桌面端布局强制修正 */
-@media (min-width: 600px) {
-  .side-bar {
-    width: 220px !important;
+/* 使用最高优先级选择器控制侧边栏 */
+html body .site-header .side-bar,
+html body .side-bar,
+body .side-bar {
+  width: 180px !important;
+  min-width: 180px !important;
+  max-width: 180px !important;
+  flex: 0 0 180px !important;
+  flex-basis: 180px !important;
+}
+
+/* 主内容区域强制适配 */
+html body .main-content-wrap,
+html body .main,
+body .main {
+  margin-left: 180px !important;
+  width: calc(100% - 180px) !important;
+}
+
+/* 顶部header强制适配 */
+html body .main-header,
+body .main-header {
+  left: 180px !important;
+  width: calc(100% - 180px) !important;
+}
+
+/* 移动端和桌面端都强制应用 */
+@media (min-width: 31.25rem) {
+  html body .side-bar,
+  body .side-bar {
+    width: 180px !important;
+    min-width: 180px !important;
+    max-width: 180px !important;
+    flex: 0 0 180px !important;
   }
-  .main {
-    margin-left: 220px !important;
+  
+  html body .main,
+  body .main {
+    margin-left: 180px !important;
+    width: calc(100% - 180px) !important;
   }
-  .main-header {
-    left: 220px !important;
-    width: calc(100% - 220px) !important;
+  
+  html body .main-header,
+  body .main-header {
+    left: 180px !important;
+    width: calc(100% - 180px) !important;
   }
+}
+
+@media (min-width: 50rem) {
+  html body .side-bar,
+  body .side-bar {
+    width: 180px !important;
+    min-width: 180px !important;
+    max-width: 180px !important;
+    flex: 0 0 180px !important;
+  }
+  
+  html body .main,
+  body .main {
+    margin-left: 180px !important;
+    width: calc(100% - 180px) !important;
+  }
+  
+  html body .main-header,
+  body .main-header {
+    left: 180px !important;
+    width: calc(100% - 180px) !important;
+  }
+}
+
+/* 侧边栏内容优化 */
+.nav-list-link {
+  font-size: 0.85rem !important;
+  padding: 4px 6px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* 主内容字体保持放大 */
+.main-content p {
+  font-size: 1.1rem !important;
+  line-height: 1.7 !important;
+}
+
+.main-content h2,
+.main-content h3 {
+  font-size: 1.6rem !important;
 }

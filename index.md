@@ -26,29 +26,29 @@ has_toc: false
     </div>
 </div>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 30px;">
 
     <a href="./conference-activities/" style="text-decoration: none; color: inherit;">
-        <div style="background: white; border: 1px solid #eee; border-radius: 12px; padding: 25px; transition: transform 0.3s; height: 100%; box-shadow: 0 4px 6px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-            <h3 style="color: #cf0a2c; margin-top: 0;">🏆 Conference Activities</h3>
-            <p style="font-size: 0.9em; color: #666;">Explore our diverse engagement at <b>EuroSys 2026</b>: including official <b>on-site Workshops & Tutorials</b>, alongside our independent <b>interesting technical talks</b> hosted at the Bayes Centre and online.</p>
-            <span style="color: #cf0a2c; font-weight: bold; font-size: 0.9em;">View Details →</span>
+        <div style="background: white; border: 1px solid #eee; border-radius: 12px; padding: 30px; transition: transform 0.3s; height: 100%; box-shadow: 0 4px 6px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+            <h3 style="color: #cf0a2c; margin-top: 0; font-size: 1.4em; margin-bottom: 15px; font-weight: 700;">🏆 Conference Activities</h3>
+            <p style="font-size: 1.05em; color: #555; line-height: 1.6; margin-bottom: 20px;">Explore our diverse engagement at <b>EuroSys 2026</b>: including official <b>on-site Workshops & Tutorials</b>, alongside our independent <b>interesting technical talks</b> hosted at the Bayes Centre and online.</p>
+            <span style="color: #cf0a2c; font-weight: bold; font-size: 1em;">View Details →</span>
         </div>
     </a>
 
     <a href="./hackathons/" style="text-decoration: none; color: inherit;">
-        <div style="background: white; border: 1px solid #eee; border-radius: 12px; padding: 25px; transition: transform 0.3s; height: 100%; box-shadow: 0 4px 6px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-            <h3 style="color: #cf0a2c; margin-top: 0;">💻 Hackathons</h3>
-            <p style="font-size: 0.9em; color: #666;">Join our coding challenges, view previous results, and build the future of systems.</p>
-            <span style="color: #cf0a2c; font-weight: bold; font-size: 0.9em;">View Details →</span>
+        <div style="background: white; border: 1px solid #eee; border-radius: 12px; padding: 30px; transition: transform 0.3s; height: 100%; box-shadow: 0 4px 6px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+            <h3 style="color: #cf0a2c; margin-top: 0; font-size: 1.4em; margin-bottom: 15px; font-weight: 700;">💻 Hackathons</h3>
+            <p style="font-size: 1.05em; color: #555; line-height: 1.6; margin-bottom: 20px;">Join our coding challenges, view previous results, and build the future of systems.</p>
+            <span style="color: #cf0a2c; font-weight: bold; font-size: 1em;">View Details →</span>
         </div>
     </a>
 
     <a href="./other-activities/" style="text-decoration: none; color: inherit;">
-        <div style="background: white; border: 1px solid #eee; border-radius: 12px; padding: 25px; transition: transform 0.3s; height: 100%; box-shadow: 0 4px 6px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-            <h3 style="color: #cf0a2c; margin-top: 0;">🌟 Others</h3>
-            <p style="font-size: 0.9em; color: #666;">Discover more ecosystem activities, community meetups, and open-source projects.</p>
-            <span style="color: #cf0a2c; font-weight: bold; font-size: 0.9em;">View Details →</span>
+        <div style="background: white; border: 1px solid #eee; border-radius: 12px; padding: 30px; transition: transform 0.3s; height: 100%; box-shadow: 0 4px 6px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+            <h3 style="color: #cf0a2c; margin-top: 0; font-size: 1.4em; margin-bottom: 15px; font-weight: 700;">🌟 Others</h3>
+            <p style="font-size: 1.05em; color: #555; line-height: 1.6; margin-bottom: 20px;">Discover more ecosystem activities, community meetups, and open-source projects.</p>
+            <span style="color: #cf0a2c; font-weight: bold; font-size: 1em;">View Details →</span>
         </div>
     </a>
 

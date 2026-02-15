@@ -1,8 +1,0 @@
-@charset "UTF-8";
-/* 1. 全局 CSS 变量强制覆盖 */
-:root { --nav-width: 220px !important; --nav-width-mobile: 200px !important; }
-
-/* 2. 桌面端布局强制修正 */
-@media (min-width: 600px) { .side-bar { width: 220px !important; } .main { margin-left: 220px !important; } .main-header { left: 220px !important; width: calc(100% - 220px) !important; } }
-
-/*# sourceMappingURL=custom.css.map */
