@@ -23,13 +23,15 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 exclude:
+  - CHANGELOG.md
+  - MIGRATION.md
+  - README.md
+  - LICENSE
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
+  - docs/tmp/
   - tmp/
 
 breadcrumb_nav:
