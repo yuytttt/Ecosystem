@@ -13,7 +13,7 @@ Huawei is proud to be part of EuroSys 2026. We have organized a series of techni
 
 <div style="display: flex; flex-direction: column; gap: 25px; margin-top: 30px;" markdown="0">
 
-    <div onclick="window.location.href='./tutorial/'" 
+    <div onclick="window.location.href='/Ecosystem/conference-activities/eurosys2026/tutorial/'" 
          style="cursor: pointer; background: white; border: 1px solid #eee; border-left: 8px solid #cf0a2c; border-radius: 12px; padding: 30px; transition: all 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.03); display: flex; justify-content: space-between; align-items: center;" 
          onmouseover="this.style.transform='translateX(10px)'; this.style.borderColor='#cf0a2c'" 
          onmouseout="this.style.transform='translateX(0)'; this.style.borderColor='#eee'">

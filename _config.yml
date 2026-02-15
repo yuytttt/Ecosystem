@@ -13,7 +13,7 @@ search_enabled: false
 heading_anchors: true
 
 # 指定源目录为docs
-source: /Ecosystem/docs
+source: docs
 
 sass:
   sass_dir: assets/css
@@ -27,12 +27,20 @@ exclude:
   - MIGRATION.md
   - README.md
   - LICENSE
+  - LICENSE.txt
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor/
-  - docs/tmp/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - tmp/
+  - spec/
+  - test/
+  - docs/tmp/
 
 breadcrumb_nav:
   enabled: true
