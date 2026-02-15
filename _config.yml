@@ -13,7 +13,7 @@ search_enabled: false
 heading_anchors: true
 
 # 指定源目录为docs
-source: docs
+source: /Ecosystem/docs
 
 sass:
   sass_dir: assets/css
