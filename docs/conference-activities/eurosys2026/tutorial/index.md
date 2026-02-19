@@ -5,7 +5,7 @@ parent: EuroSys 2026
 grand_parent: Conference Activities
 nav_order: 1
 has_toc: false
-permalink: /conference-activities/eurosys2026/tutorial
+permalink: /conference-activities/eurosys2026/tutorial/
 ---
 
 # 📖 Tutorial: Systems for AI & AI for Systems (SAIS)
