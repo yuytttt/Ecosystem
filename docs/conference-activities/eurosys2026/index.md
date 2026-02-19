@@ -5,6 +5,7 @@ parent: Conference Activities
 nav_order: 2
 has_children: true
 has_toc: false
+permalink: /conference-activities/eurosys2026/
 ---
 
 # 📍 EuroSys 2026 @ Edinburgh
