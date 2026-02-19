@@ -1,18 +1,27 @@
 <style>
-/* 强制注入：无论本地还是远端都生效 */
+/* 1. 变量强制覆盖：宽度调至 290px */
 :root {
   --nav-width: 290px !important;
   --nav-width-mobile: 290px !important;
   font-size: 17px !important; 
 }
 
+/* 2. 布局同步：让主内容右移，留出呼吸感 (340px = 290px 宽度 + 50px 间距) */
 @media (min-width: 600px) {
-  .side-bar { width: 290px !important; min-width: 290px !important; }
-  /* 这里保持 340px 的偏移，给你留出呼吸感 */
-  .main { margin-left: 340px !important; }
-  .main-header { left: 340px !important; width: calc(100% - 340px) !important; }
+  .side-bar {
+    width: 290px !important;
+    min-width: 290px !important;
+  }
+  .main {
+    margin-left: 340px !important; /* 强制整体右移 */
+  }
+  .main-header {
+    left: 340px !important;
+    width: calc(100% - 340px) !important;
+  }
 }
 
+/* 3. 防止文字遮挡：优化导航栏文字间距 */
 .nav-list-link {
   font-size: 0.95rem !important;
   padding-left: 24px !important; 

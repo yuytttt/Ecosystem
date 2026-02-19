@@ -1,8 +1,11 @@
 ---
 layout: default
-title: Workshops
+title: Tutorials
 parent: EuroSys 2026
-nav_order: 1
+grand_parent: Conference Activities
+nav_order: 2
+has_toc: false
+permalink: /conference-activities/eurosys2026/workshop
 ---
 
-# 🛠️ Workshop: Open Challenges for System Research
+# 🛠️ Workshop: TBD
