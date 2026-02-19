@@ -1,0 +1,42 @@
+<style>
+/* 1. 布局变量：导航栏物理宽度保持 290px 以容纳长文字 */
+:root {
+  --nav-width: 290px !important;
+  --nav-width-mobile: 290px !important;
+  font-size: 17px !important; 
+}
+
+/* 2. 桌面端布局同步：增加主内容左边距，让页面往右移 */
+@media (min-width: 600px) {
+  .side-bar {
+    width: 290px !important;
+    min-width: 290px !important;
+  }
+  
+  /* 【核心修改】将 margin-left 设为 340px (290 宽度 + 50 间距) */
+  /* 这样主内容就会整体向右移动，不再显得太挤 */
+  .main {
+    margin-left: 340px !important;
+  }
+  
+  /* 顶部页眉同步平移 */
+  .main-header {
+    left: 340px !important;
+    width: calc(100% - 340px) !important;
+  }
+}
+
+/* 3. 导航栏样式微调 */
+.nav-list-link {
+  font-size: 0.95rem !important;
+  padding-left: 24px !important; 
+  white-space: nowrap !important;
+}
+
+/* 4. 正文段落优化 */
+.main-content p {
+  font-size: 1.1rem !important;
+  line-height: 1.65 !important;
+  color: #333 !important;
+}
+</style>
