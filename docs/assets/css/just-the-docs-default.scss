@@ -1,0 +1,61 @@
+---
+---
+/* 1. 在这里写变量，修改导航栏宽度（必须放在 include 之前，系统才会采纳） */
+$nav-width: 220px;
+$nav-width-md: 220px;
+
+{% if site.color_scheme and site.color_scheme != "nil" %}
+  {% assign color_scheme = site.color_scheme %}
+{% else %}
+  {% assign color_scheme = "light" %}
+{% endif %}
+
+/* 2. 引入主题核心代码（这行千万不能删） */
+{% include css/just-the-docs.scss.liquid color_scheme=color_scheme %}
+
+/* ========================================================= */
+/* 3. 在这里写普通 CSS 代码（必须放在 include 之后进行覆盖） */
+/* ========================================================= */
+
+/* 基础样式重置 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* 基本的响应式调整 */
+@media (max-width: 768px) {
+  .main {
+    padding: 10px;
+  }
+}
+
+/* 修复侧边栏箭头重叠 */
+.nav-list-expander::before,
+.nav-list-expander::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* 放大左侧导航栏的链接字体 */
+.nav-list-link {
+  font-size: 16px !important; 
+  padding-top: 10px !important; 
+  padding-bottom: 10px !important;
+}
+
+/* ========================================================= */
+/* 4. 视觉微调（标题单行显示 & 箭头对齐） */
+/* ========================================================= */
+
+/* 让左上角的 SIR Lab Ecosystem 保持在一行 */
+.site-title {
+  font-size: 16px !important; /* 适当缩小字号以适应 200px 的宽度 */
+  white-space: nowrap !important; /* 强制不换行 */
+  letter-spacing: -0.5px !important; /* 稍微收紧一点字间距，让它看起来更紧凑 */
+}
+
+/* 修正箭头和放大后的文字的垂直对齐 */
+.nav-list-expander svg {
+  position: relative !important;
+  top: 6px !important; /* 将箭头向下微调，如果不居中你可以改成 2px 或 4px */
+}
