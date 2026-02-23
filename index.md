@@ -1,6 +1,7 @@
 ---
 layout: default
 title: SIR Lab Ecosystem
+nav_exclude: true
 ---
 
 <script>
