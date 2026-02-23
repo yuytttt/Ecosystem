@@ -1,62 +1,47 @@
 <style>
-/* 1. 变量强制覆盖：宽度调至 290px */
-:root {
-  --nav-width: 290px !important;
-  --nav-width-mobile: 290px !important;
-  font-size: 17px !important; 
-}
-
-/* 2. 布局同步：让主内容右移，留出呼吸感 (340px = 290px 宽度 + 50px 间距) */
-@media (min-width: 600px) {
-  .side-bar {
-    width: 290px !important;
-    min-width: 290px !important;
+  /* 1. 强制缩小导航栏宽度 */
+  :root {
+    --nav-width: 220px;
   }
-  .main {
-    margin-left: 340px !important; /* 强制整体右移 */
+  
+  @media (min-width: 768px) {
+    .side-nav {
+      width: var(--nav-width) !important;
+    }
+    .main {
+      margin-left: var(--nav-width) !important;
+    }
+    .main-header {
+      left: var(--nav-width) !important;
+      width: calc(100% - var(--nav-width)) !important;
+    }
   }
-  .main-header {
-    left: 340px !important;
-    width: calc(100% - 340px) !important;
+
+  /* 2. 放大导航栏字体并调整间距 */
+  .nav-list-link {
+    font-size: 16px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
   }
-}
 
-/* 3. 防止文字遮挡：优化导航栏文字间距 */
-.nav-list-link {
-  font-size: 0.95rem !important;
-  padding-left: 24px !important; 
-  white-space: nowrap !important;
-}
-</style>
-
-<style>
-  /* 隐藏所有由于其他样式库或伪元素强加在展开按钮上的额外箭头 */
+  /* 3. 彻底修复箭头重叠（隐藏伪元素，只留 SVG） */
   .nav-list-expander::before,
   .nav-list-expander::after {
     display: none !important;
     content: none !important;
   }
-  
-  /* 确保按钮的背景图片（如果有的话）被清空 */
-  .nav-list-expander {
-    background-image: none !important;
-    position: relative;
-  }
 
-  /* 规范原生 SVG 箭头的显示和旋转动画 */
+  /* 4. 垂直对齐箭头 */
   .nav-list-expander svg {
-    display: block !important;
-    transition: transform 0.2s ease-in-out !important;
+    position: relative !important;
+    top: 6px !important;
   }
 
-  /* 默认收起状态：箭头朝右 */
-  .nav-list-item:not(.active) > .nav-list-expander svg {
-    transform: rotate(0deg) !important;
-  }
-
-  /* 展开状态：箭头朝下 */
-  .nav-list-item.active > .nav-list-expander svg,
-  .nav-list-expander[aria-pressed="true"] svg {
-    transform: rotate(90deg) !important;
+  /* 5. 确保标题单行显示 */
+  .site-title {
+    font-size: 16px !important;
+    white-space: nowrap !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 </style>
