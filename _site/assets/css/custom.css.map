@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "custom.css",
+	"sources": [
+		"custom.scss"
+	],
+	"sourcesContent": [
+		"/* 基础样式重置 */\r\nbody {\r\n  font-family: -apple-system, BlinkMacSystemFont, sans-serif;\r\n}\r\n\r\n/* 基本的响应式调整 */\r\n@media (max-width: 768px) {\r\n  .main {\r\n    padding: 10px;\r\n  }\r\n}"
+	],
+	"names": [],
+	"mappings": "AACA,AAAA,IAAI,AAAC,CACH,WAAW,CAAE,6CAA6C,CAC3D,AAGD,MAAM,mBACJ,CAAA,AAAA,KAAK,AAAC,CACJ,OAAO,CAAE,IAAI,CACd,CAAA"
+}
