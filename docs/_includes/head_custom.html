@@ -28,3 +28,14 @@
   white-space: nowrap !important;
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var navLink = document.querySelector('.nav-list-link[href="/Ecosystem/"]');
+    if (navLink) {
+        navLink.style.position = 'absolute';
+        navLink.style.left = '-9999px';
+        navLink.style.height = '0px';
+    }
+});
+</script>

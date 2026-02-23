@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ecosystem
+title: SIR Lab Ecosystem
 ---
 
 <script>

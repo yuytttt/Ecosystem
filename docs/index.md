@@ -6,20 +6,21 @@ has_children: true
 has_toc: false
 ---
 
-<div style="background: linear-gradient(135deg, #cf0a2c 0%, #7d061a 100%); padding: 40px; border-radius: 15px; color: white; margin-bottom: 30px; text-align: center; box-shadow: 0 10px 20px rgba(207,10,44,0.2);">
+<style>
+@keyframes blink {
+    0% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(1.2); }
+    100% { opacity: 1; transform: scale(1); }
+}
+</style>
+
+<div onclick="window.location.href='/Ecosystem/conference-activities/eurosys2026/'" style="background: linear-gradient(135deg, #cf0a2c 0%, #7d061a 100%); padding: 40px; border-radius: 15px; color: white; margin-bottom: 30px; text-align: center; box-shadow: 0 10px 20px rgba(207,10,44,0.2); cursor: pointer;">
     <h1 style="color: white; margin-top: 0; font-size: 2.5em; font-weight: 800;">SIR Lab Ecosystem</h1>
     <p style="font-size: 1.2em; opacity: 0.9; display: flex; align-items: center; justify-content: center; gap: 10px;">
     <span style="height: 10px; width: 10px; background-color: #52c41a; border-radius: 50%; display: inline-block; animation: blink 1.5s infinite;"></span>
     <span style="font-weight: 600;">Currently Organizing:</span> 
     EuroSys 2026 - Workshops & Tutorials
     </p>
-    <style>
-    @keyframes blink {
-        0% { opacity: 1; transform: scale(1); }
-        50% { opacity: 0.4; transform: scale(1.2); }
-        100% { opacity: 1; transform: scale(1); }
-    }
-    </style>
     <div style="margin-top: 20px;">
         <span style="background: rgba(255,255,255,0.2); padding: 5px 15px; border-radius: 20px; font-size: 0.9em;">📍 Edinburgh, UK</span>
         <span style="background: rgba(255,255,255,0.2); padding: 5px 15px; border-radius: 20px; font-size: 0.9em; margin-left: 10px;">📅 27th.April</span>
