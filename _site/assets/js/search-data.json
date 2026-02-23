@@ -1,0 +1,121 @@
+{"0": {
+    "doc": "Tutorials",
+    "title": "📖 Tutorial: Systems for AI &amp; AI for Systems (SAIS)",
+    "content": " ",
+    "url": "/Ecosystem/conference-activities/eurosys2026/tutorial/#-tutorial-systems-for-ai--ai-for-systems-sais",
+    
+    "relUrl": "/conference-activities/eurosys2026/tutorial/#-tutorial-systems-for-ai--ai-for-systems-sais"
+  },"1": {
+    "doc": "Tutorials",
+    "title": "🎯 Tutorial Overview",
+    "content": "AI workloads are rapidly reshaping system design assumptions, exposing limitations in resource management, data paths, distributed execution, and observability that were not built for large-scale, heterogeneous, and latency-sensitive AI environments. This tutorial highlights cross-layer design across kernel, runtime, and distributed layers to support AI-native workloads. The tutorial is structured around two complementary tracks: Systems for AI and AI for Systems. The former focuses on heterogeneous resource management, distributed runtimes, and container-oriented data-path optimization to improve efficiency and scalability of AI execution. The latter explores how AI enhances system intelligence through observability, agent-aware scheduling, and large-model integration into system development and operational workflows. 📅 EVENT DATE &amp; TIME . April 27, 2026 . 📍 VENUE . Edinburgh, Scotland . Register Now . ",
+    "url": "/Ecosystem/conference-activities/eurosys2026/tutorial/",
+    
+    "relUrl": "/conference-activities/eurosys2026/tutorial/"
+  },"2": {
+    "doc": "Tutorials",
+    "title": "📘 System ⇆ AI",
+    "content": "Connecting openEuler with Large Models and Taking Witty (EulerCopilot) Global . 📅 Time: 1:30 - 2:30 PM . Topic 5 Abstract: . TBD . Speaker Name . Introduction . TrIO - A Flattened and Cooperative I/O Mechanism for Container Environments . 📅 Time: 3:00 - 4:00 PM . Topic 3 Abstract: . TBD . Speaker Name . Introduction . Distributed Serverless AI Computing Engine . 📅 Time: 4:30 - 5:30 PM . Topic 2 Abstract: . TBD . Speaker Name . Introduction . ",
+    "url": "/Ecosystem/conference-activities/eurosys2026/tutorial/#-system--ai",
+    
+    "relUrl": "/conference-activities/eurosys2026/tutorial/#-system--ai"
+  },"3": {
+    "doc": "Tutorials",
+    "title": "Tutorials",
+    "content": " ",
+    "url": "/Ecosystem/conference-activities/eurosys2026/tutorial/",
+    
+    "relUrl": "/conference-activities/eurosys2026/tutorial/"
+  },"4": {
+    "doc": "Workshops",
+    "title": "Workshops",
+    "content": "Redirecting to EuroSys Aegis Workshop... ",
+    "url": "/Ecosystem/conference-activities/eurosys2026/workshop/",
+    
+    "relUrl": "/conference-activities/eurosys2026/workshop/"
+  },"5": {
+    "doc": "EuroSys 2026",
+    "title": "📍 EuroSys 2026 @ Edinburgh",
+    "content": "Huawei is proud to be part of EuroSys 2026. We have organized a series of technical sessions to share our latest research and explore future system innovations. ",
+    "url": "/Ecosystem/conference-activities/eurosys2026/#-eurosys-2026--edinburgh",
+    
+    "relUrl": "/conference-activities/eurosys2026/#-eurosys-2026--edinburgh"
+  },"6": {
+    "doc": "EuroSys 2026",
+    "title": "📖 Tutorials",
+    "content": "Dive into our 5 technical themes. This section covers our keynote speeches and deep-dive technical tutorials. → ",
+    "url": "/Ecosystem/conference-activities/eurosys2026/",
+    
+    "relUrl": "/conference-activities/eurosys2026/"
+  },"7": {
+    "doc": "EuroSys 2026",
+    "title": "🛠️ Workshops",
+    "content": "Explore our hands-on workshops and collaborative sessions with global experts. → ",
+    "url": "/Ecosystem/conference-activities/eurosys2026/",
+    
+    "relUrl": "/conference-activities/eurosys2026/"
+  },"8": {
+    "doc": "EuroSys 2026",
+    "title": "EuroSys 2026",
+    "content": " ",
+    "url": "/Ecosystem/conference-activities/eurosys2026/",
+    
+    "relUrl": "/conference-activities/eurosys2026/"
+  },"9": {
+    "doc": "Others",
+    "title": "Others",
+    "content": " ",
+    "url": "/Ecosystem/conference-activities/others/",
+    
+    "relUrl": "/conference-activities/others/"
+  },"10": {
+    "doc": "Conference Activities",
+    "title": "🏆 Conference Activities",
+    "content": "Welcome to the central hub for Huawei’s deep engagement in top-tier systems conferences. Please select a specific event below to explore details, sessions, and insights. ",
+    "url": "/Ecosystem/conference-activities/#-conference-activities",
+    
+    "relUrl": "/conference-activities/#-conference-activities"
+  },"11": {
+    "doc": "Conference Activities",
+    "title": "EuroSys 2026",
+    "content": "Current Focus: Official Workshops, Tutorials, and our independent Bayes Centre sessions. Active 🔥 Other Conferences . Archive of our participation in SOSP, OSDI, ASPLOS, and more. Archive ",
+    "url": "/Ecosystem/conference-activities/",
+    
+    "relUrl": "/conference-activities/"
+  },"12": {
+    "doc": "Conference Activities",
+    "title": "Conference Activities",
+    "content": " ",
+    "url": "/Ecosystem/conference-activities/",
+    
+    "relUrl": "/conference-activities/"
+  },"13": {
+    "doc": "Previous Hackathons",
+    "title": "Previous Hackathons",
+    "content": " ",
+    "url": "/Ecosystem/hackathons/previous%20hackathons/",
+    
+    "relUrl": "/hackathons/previous hackathons/"
+  },"14": {
+    "doc": "Hackathons",
+    "title": "Hackathons",
+    "content": " ",
+    "url": "/Ecosystem/hackathons/",
+    
+    "relUrl": "/hackathons/"
+  },"15": {
+    "doc": "SIR Lab Ecosystem",
+    "title": "SIR Lab Ecosystem",
+    "content": "Currently Organizing: EuroSys 2026 - Workshops &amp; Tutorials . 📍 Edinburgh, UK 📅 27th.April 🏆 Conference Activities . Explore our diverse engagement at EuroSys 2026: including official on-site Workshops &amp; Tutorials, alongside our independent interesting technical talks hosted at the Bayes Centre and online. View Details → 💻 Hackathons . Join our coding challenges, view previous results, and build the future of systems. View Details → 🌟 Others . Discover more ecosystem activities, community meetups, and open-source projects. View Details → ",
+    "url": "/Ecosystem/",
+    
+    "relUrl": "/"
+  },"16": {
+    "doc": "SIR Lab Ecosystem",
+    "title": "SIR Lab Ecosystem",
+    "content": " ",
+    "url": "/Ecosystem/",
+    
+    "relUrl": "/"
+  }
+}
