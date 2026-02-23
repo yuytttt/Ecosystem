@@ -38,22 +38,8 @@ permalink: /conference-activities/eurosys2026/tutorial/
 
 <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 30px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; gap: 25px; align-items: flex-start; background: white;">
     <div style="flex: 3;">
-        <h3 style="margin-top: 0; color: #0366d6; font-size: 1.3em; font-weight: 700; margin-bottom: 15px;">Heterogeneous Integrated AI Resource Management</h3>
-        <p style="color: #666; font-size: 1em; margin-bottom: 15px; font-weight: 600;">📅 Time: 09:00 - 10:00 AM</p>
-        <p style="font-weight: bold; color: #666; margin-bottom: 8px; font-size: 1em;">Topic 1 Abstract:</p>
-        <p style="font-size: 1.05em; line-height: 1.6; color: #555;">TBD</p>
-    </div>
-    <div style="flex: 1; text-align: center; border-left: 1px solid #eee; padding-left: 25px; min-width: 180px;">
-        <img src="/static/images/speaker1.jpg" alt="Speaker" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0;">
-        <p style="margin: 15px 0 8px 0; font-weight: bold; color: #0366d6; font-size: 1.05em;">Speaker Name</p>
-        <p style="font-size: 0.9em; color: #555; line-height: 1.5;">Introduction</p>
-    </div>
-</div>
-
-<div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 30px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; gap: 25px; align-items: flex-start; background: white;">
-    <div style="flex: 3;">
         <h3 style="margin-top: 0; color: #0366d6; font-size: 1.3em; font-weight: 700; margin-bottom: 15px;">Distributed Serverless AI Computing Engine</h3>
-        <p style="color: #666; font-size: 1em; margin-bottom: 15px; font-weight: 600;">📅 Time: 10:00 - 11:30 AM</p>
+        <p style="color: #666; font-size: 1em; margin-bottom: 15px; font-weight: 600;">📅 Time: 1:30 - 2:30 PM</p>
         <p style="font-weight: bold; color: #666; margin-bottom: 8px; font-size: 1em;">Topic 2 Abstract:</p>
         <p style="font-size: 1.05em; line-height: 1.6; color: #555;">TBD</p>
     </div>
@@ -64,17 +50,10 @@ permalink: /conference-activities/eurosys2026/tutorial/
     </div>
 </div>
 
-<!-- 午休环节 -->
-<div style="border: 1px solid #f0c14b; border-radius: 12px; padding: 25px; margin-bottom: 25px; background: linear-gradient(90deg, #fffdf7 0%, #fff9e6 100%); text-align: center;">
-    <h3 style="margin: 0; color: #b7791f; font-size: 1.3em; font-weight: 700;">🍽️ Lunch Break</h3>
-    <p style="color: #b7791f; font-size: 1em; margin: 10px 0 0 0; font-weight: 600;">📅 Time: 11:30 AM - 1:00 PM</p>
-    <p style="font-size: 1.05em; line-height: 1.6; color: #8b6914; margin: 10px 0 0 0;">Networking and refreshments</p>
-</div>
-
 <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 30px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; gap: 25px; align-items: flex-start; background: white;">
     <div style="flex: 3;">
         <h3 style="margin-top: 0; color: #0366d6; font-size: 1.3em; font-weight: 700; margin-bottom: 15px;">TrIO - A Flattened and Cooperative I/O Mechanism for Container Environments</h3>
-        <p style="color: #666; font-size: 1em; margin-bottom: 15px; font-weight: 600;">📅 Time: 1:00 - 2:00 PM</p>
+        <p style="color: #666; font-size: 1em; margin-bottom: 15px; font-weight: 600;">📅 Time: 3:00 - 4:00 PM</p>
         <p style="font-weight: bold; color: #666; margin-bottom: 8px; font-size: 1em;">Topic 3 Abstract:</p>
         <p style="font-size: 1.05em; line-height: 1.6; color: #555;">TBD</p>
     </div>
@@ -91,22 +70,8 @@ permalink: /conference-activities/eurosys2026/tutorial/
 
 <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 30px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; gap: 25px; align-items: flex-start; background: white;">
     <div style="flex: 3;">
-        <h3 style="margin-top: 0; color: #0366d6; font-size: 1.3em; font-weight: 700; margin-bottom: 15px;">AgentEye empowers openYuanrong to run Agentic AI workloads</h3>
-        <p style="color: #666; font-size: 1em; margin-bottom: 15px; font-weight: 600;">📅 Time: 2:00 - 3:30 PM</p>
-        <p style="font-weight: bold; color: #666; margin-bottom: 8px; font-size: 1em;">Topic 4 Abstract:</p>
-        <p style="font-size: 1.05em; line-height: 1.6; color: #555;">TBD</p>
-    </div>
-    <div style="flex: 1; text-align: center; border-left: 1px solid #eee; padding-left: 25px; min-width: 180px;">
-        <img src="/static/images/speaker4.jpg" alt="Speaker" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0;">
-        <p style="margin: 15px 0 8px 0; font-weight: bold; color: #0366d6; font-size: 1.05em;">Speaker Name</p>
-        <p style="font-size: 0.9em; color: #555; line-height: 1.5;">Introduction</p>
-    </div>
-</div>
-
-<div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 30px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; gap: 25px; align-items: flex-start; background: white;">
-    <div style="flex: 3;">
         <h3 style="margin-top: 0; color: #0366d6; font-size: 1.3em; font-weight: 700; margin-bottom: 15px;">Connecting openEuler with Large Models and Taking Witty (EulerCopilot) Global</h3>
-        <p style="color: #666; font-size: 1em; margin-bottom: 15px; font-weight: 600;">📅 Time: 3:30 - 4:30 PM</p>
+        <p style="color: #666; font-size: 1em; margin-bottom: 15px; font-weight: 600;">📅 Time: 4:30 - 5:30 PM</p>
         <p style="font-weight: bold; color: #666; margin-bottom: 8px; font-size: 1em;">Topic 5 Abstract:</p>
         <p style="font-size: 1.05em; line-height: 1.6; color: #555;">TBD</p>
     </div>

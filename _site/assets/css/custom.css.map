@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "custom.css",
+	"sources": [
+		"custom.scss"
+	],
+	"sourcesContent": [
+		"/* 1. 强制缩小导航栏（侧边栏）宽度 */\r\n:root {\r\n  --nav-width: 200px !important;\r\n  --nav-width-mobile: 200px !important;\r\n  \r\n  /* 2. 全局基础字号放大 */\r\n  font-size: 18px !important; \r\n}\r\n\r\n/* 3. 同步修正布局平移，否则缩窄没意义 */\r\n@media (min-width: 600px) {\r\n  .side-bar {\r\n    width: 200px !important;\r\n    min-width: 200px !important;\r\n  }\r\n  .main {\r\n    margin-left: 200px !important; /* 核心：让右边内容往左挪 */\r\n  }\r\n  .main-header {\r\n    left: 200px !important;\r\n    width: calc(100% - 200px) !important;\r\n  }\r\n}\r\n\r\n/* 4. 针对 Ecosystem 页面 (Ecosystem.md) 的字体进一步放大 */\r\n/* 这样你的首页看起来会非常大气 */\r\n.main-content p {\r\n  font-size: 1.15rem !important; /* 约 20px */\r\n  line-height: 1.7 !important;\r\n  color: #333 !important;\r\n}\r\n\r\n.main-content h1, .main-content h2, .main-content h3 {\r\n  margin-top: 1.5rem !important;\r\n  letter-spacing: -0.02em !important;\r\n}\r\n\r\n/* 5. 调整导航栏里的文字大小，防止缩窄后文字溢出 */\r\n.nav-list-link {\r\n  font-size: 0.9rem !important;\r\n  padding-left: 15px !important;\r\n}"
+	],
+	"names": [],
+	"mappings": "CACC,AAAD,IAAK,AAAC,CACJ,WAAW,CAAA,iBAAC,CACZ,kBAAkB,CAAA,iBAAC,CAGnB,SAAS,CAAE,eAAe,CAC3B,AAGD,MAAM,mBACJ,CAAA,AAAA,SAAS,AAAC,CACR,KAAK,CAAE,gBAAgB,CACvB,SAAS,CAAE,gBAAgB,CAC5B,AACD,AAAA,KAAK,AAAC,CACJ,WAAW,CAAE,gBAAgB,CAC9B,AACD,AAAA,YAAY,AAAC,CACX,IAAI,CAAE,gBAAgB,CACtB,KAAK,CAAE,kBAAkB,CAAC,UAAU,CACrC,CAPA,AAYH,AAAA,aAAa,CAAC,CAAC,AAAC,CACd,SAAS,CAAE,kBAAkB,CAC7B,WAAW,CAAE,cAAc,CAC3B,KAAK,CAAE,eAAe,CACvB,AAED,AAAA,aAAa,CAAC,EAAE,CAAE,aAAa,CAAC,EAAE,CAAE,aAAa,CAAC,EAAE,AAAC,CACnD,UAAU,CAAE,iBAAiB,CAC7B,cAAc,CAAE,kBAAkB,CACnC,AAGD,AAAA,cAAc,AAAC,CACb,SAAS,CAAE,iBAAiB,CAC5B,YAAY,CAAE,eAAe,CAC9B"
+}

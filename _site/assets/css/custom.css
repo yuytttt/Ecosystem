@@ -1,0 +1,3 @@
+:root{--nav-width: 200px !important;--nav-width-mobile: 200px !important;font-size:18px !important}@media (min-width: 600px){.side-bar{width:200px !important;min-width:200px !important}.main{margin-left:200px !important}.main-header{left:200px !important;width:calc(100% - 200px) !important}}.main-content p{font-size:1.15rem !important;line-height:1.7 !important;color:#333 !important}.main-content h1,.main-content h2,.main-content h3{margin-top:1.5rem !important;letter-spacing:-0.02em !important}.nav-list-link{font-size:0.9rem !important;padding-left:15px !important}
+
+/*# sourceMappingURL=custom.css.map */
