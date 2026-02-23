@@ -1,0 +1,25 @@
+/* 基础样式重置 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* 基本的响应式调整 */
+@media (max-width: 768px) {
+  .main {
+    padding: 10px;
+  }
+}
+
+/* 修复箭头重叠的代码 */
+.nav-list-expander::before,
+.nav-list-expander::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* 放大左侧导航栏的链接字体 */
+.nav-list-link {
+  font-size: 16px !important; 
+  padding-top: 10px !important; 
+  padding-bottom: 10px !important;
+}
