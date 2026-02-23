@@ -4,6 +4,7 @@ title: SIR Lab Ecosystem
 nav_order: 1
 has_children: true
 has_toc: false
+nav_exclude: true
 ---
 
 <style>

@@ -29,13 +29,34 @@
 }
 </style>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    var navLink = document.querySelector('.nav-list-link[href="/Ecosystem/"]');
-    if (navLink) {
-        navLink.style.position = 'absolute';
-        navLink.style.left = '-9999px';
-        navLink.style.height = '0px';
-    }
-});
-</script>
+<style>
+  /* 隐藏所有由于其他样式库或伪元素强加在展开按钮上的额外箭头 */
+  .nav-list-expander::before,
+  .nav-list-expander::after {
+    display: none !important;
+    content: none !important;
+  }
+  
+  /* 确保按钮的背景图片（如果有的话）被清空 */
+  .nav-list-expander {
+    background-image: none !important;
+    position: relative;
+  }
+
+  /* 规范原生 SVG 箭头的显示和旋转动画 */
+  .nav-list-expander svg {
+    display: block !important;
+    transition: transform 0.2s ease-in-out !important;
+  }
+
+  /* 默认收起状态：箭头朝右 */
+  .nav-list-item:not(.active) > .nav-list-expander svg {
+    transform: rotate(0deg) !important;
+  }
+
+  /* 展开状态：箭头朝下 */
+  .nav-list-item.active > .nav-list-expander svg,
+  .nav-list-expander[aria-pressed="true"] svg {
+    transform: rotate(90deg) !important;
+  }
+</style>

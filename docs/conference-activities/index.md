@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Conference Activities
-parent: SIR Lab Ecosystem
 nav_order: 1
 has_children: true
 has_toc: false

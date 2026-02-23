@@ -38,13 +38,13 @@ permalink: /conference-activities/eurosys2026/tutorial/
 
 <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 30px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; gap: 25px; align-items: flex-start; background: white;">
     <div style="flex: 3;">
-        <h3 style="margin-top: 0; color: #0366d6; font-size: 1.3em; font-weight: 700; margin-bottom: 15px;">Distributed Serverless AI Computing Engine</h3>
+        <h3 style="margin-top: 0; color: #0366d6; font-size: 1.3em; font-weight: 700; margin-bottom: 15px;">Connecting openEuler with Large Models and Taking Witty (EulerCopilot) Global</h3>
         <p style="color: #666; font-size: 1em; margin-bottom: 15px; font-weight: 600;">📅 Time: 1:30 - 2:30 PM</p>
-        <p style="font-weight: bold; color: #666; margin-bottom: 8px; font-size: 1em;">Topic 2 Abstract:</p>
+        <p style="font-weight: bold; color: #666; margin-bottom: 8px; font-size: 1em;">Topic 5 Abstract:</p>
         <p style="font-size: 1.05em; line-height: 1.6; color: #555;">TBD</p>
     </div>
     <div style="flex: 1; text-align: center; border-left: 1px solid #eee; padding-left: 25px; min-width: 180px;">
-        <img src="/static/images/speaker2.jpg" alt="Speaker" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0;">
+        <img src="/static/images/speaker5.jpg" alt="Speaker" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0;">
         <p style="margin: 15px 0 8px 0; font-weight: bold; color: #0366d6; font-size: 1.05em;">Speaker Name</p>
         <p style="font-size: 0.9em; color: #555; line-height: 1.5;">Introduction</p>
     </div>
@@ -66,13 +66,13 @@ permalink: /conference-activities/eurosys2026/tutorial/
 
 <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 30px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; gap: 25px; align-items: flex-start; background: white;">
     <div style="flex: 3;">
-        <h3 style="margin-top: 0; color: #0366d6; font-size: 1.3em; font-weight: 700; margin-bottom: 15px;">Connecting openEuler with Large Models and Taking Witty (EulerCopilot) Global</h3>
+        <h3 style="margin-top: 0; color: #0366d6; font-size: 1.3em; font-weight: 700; margin-bottom: 15px;">Distributed Serverless AI Computing Engine</h3>
         <p style="color: #666; font-size: 1em; margin-bottom: 15px; font-weight: 600;">📅 Time: 4:30 - 5:30 PM</p>
-        <p style="font-weight: bold; color: #666; margin-bottom: 8px; font-size: 1em;">Topic 5 Abstract:</p>
+        <p style="font-weight: bold; color: #666; margin-bottom: 8px; font-size: 1em;">Topic 2 Abstract:</p>
         <p style="font-size: 1.05em; line-height: 1.6; color: #555;">TBD</p>
     </div>
     <div style="flex: 1; text-align: center; border-left: 1px solid #eee; padding-left: 25px; min-width: 180px;">
-        <img src="/static/images/speaker5.jpg" alt="Speaker" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0;">
+        <img src="/static/images/speaker2.jpg" alt="Speaker" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0;">
         <p style="margin: 15px 0 8px 0; font-weight: bold; color: #0366d6; font-size: 1.05em;">Speaker Name</p>
         <p style="font-size: 0.9em; color: #555; line-height: 1.5;">Introduction</p>
     </div>
