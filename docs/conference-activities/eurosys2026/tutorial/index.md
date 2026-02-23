@@ -34,7 +34,7 @@ permalink: /conference-activities/eurosys2026/tutorial/
 
 ---
 
-## 📘 Part 1: System for AI
+## 📘 System ⇆ AI
 
 <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 30px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; gap: 25px; align-items: flex-start; background: white;">
     <div style="flex: 3;">
@@ -63,10 +63,6 @@ permalink: /conference-activities/eurosys2026/tutorial/
         <p style="font-size: 0.9em; color: #555; line-height: 1.5;">Introduction</p>
     </div>
 </div>
-
----
-
-## 📘 Part 2: AI for System
 
 <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 30px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; gap: 25px; align-items: flex-start; background: white;">
     <div style="flex: 3;">
