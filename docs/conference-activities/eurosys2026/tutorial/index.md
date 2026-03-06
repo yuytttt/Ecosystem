@@ -36,16 +36,16 @@ permalink: /conference-activities/eurosys2026/tutorial/
 ## 📘 System Operations and Optimization Acceleration in the AI Era
 <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 30px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; gap: 30px; align-items: stretch; background: white; min-width: 900px;">
     <div style="flex: 2.5; min-width: 0;">
-        <h3 style="margin-top: 0; color: #0366d6; font-size: 1.35em; font-weight: 700; margin-bottom: 15px;">Connecting openEuler with Large Models and Taking EulerCopilot Global</h3>
+        <h3 style="margin-top: 0; color: #0366d6; font-size: 1.35em; font-weight: 700; margin-bottom: 15px;">EulerCopilot: Key Technologies and Practices of Intelligent Fault Diagnosis and Optimization in openEuler</h3>
         <p style="color: #666; font-size: 1em; margin-bottom: 15px; font-weight: 600;">📅 Time: 2:00 - 2:40 PM</p>
         <p style="font-weight: bold; color: #666; margin-bottom: 8px; font-size: 1em;">Topic Abstract:</p>
-        <p style="font-size: 1.05em; line-height: 1.6; color: #555;">TBD</p>
+        <p style="font-size: 1.05em; line-height: 1.6; color: #555;">With the rapid growth of cloud computing and AI infrastructure, operating systems need to support diverse workloads such as SuperPoDs and AI training and inference, significantly increasing the complexity of operations and maintenance (O&M). Traditional O&M models face significant challenges in fault localization efficiency, system observability, and performance optimization capabilities. How to leverage data-driven and AI technologies to enhance diagnostic and optimization capabilities is becoming an important research direction in the field of system software. As a critical open-source operating system for enterprise and AI infrastructure, openEuler is building a systematic technical architecture for intelligent O&M. This session will systematically introduce the key technologies of openEuler in intelligent fault diagnosis and performance optimization, including precise root cause analysis through multi-Agent collaboration, adaptive system optimization by integrating multi-source data, and the generation and self-evolution of Agent Skills based on O&M experience. These technologies will be demonstrated through their core capabilities in intelligent fault diagnosis and system optimization.</p>
     </div>
     <div style="flex: 1.5; text-align: center; border-left: 1px solid #eee; padding-left: 30px; min-width: 350px; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;">
-        <img src="{{ '/assets/images/speaker5.jpg' | relative_url }}" alt="Speaker" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0;">
-        <p style="margin: 15px 0 8px 0; font-weight: bold; color: #0366d6; font-size: 1.1em;">Lu Jingxiao</p>
+        <img src="{{ '/assets/images/wanglei.jpg' | relative_url }}" alt="Speaker" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0;">
+        <p style="margin: 15px 0 8px 0; font-weight: bold; color: #0366d6; font-size: 1.1em;">Wang Lei</p>
         <p style="font-size: 0.92em; color: #555; line-height: 1.6; text-align: left; width: 100%;">
-            TBD
+            Chief architect of EulerCopilot, expert in foundational software architecture and systems engineering at Huawei. He has extensive practical experience in the fields of LLM Agents, Serverless, and DevOps, and is the author of several books, including "Microservice Architecture and Practice," "Core Technologies and Practices of Huawei Serverless," and "A Practical Guide to DevOps."
         </p>
     </div>
 </div>
