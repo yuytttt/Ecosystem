@@ -55,7 +55,7 @@ permalink: /conference-activities/eurosys2026/tutorial/
         <h3 style="margin-top: 0; color: #0366d6; font-size: 1.35em; font-weight: 700; margin-bottom: 15px;">TrIO - A Flattened and Cooperative I/O Mechanism for Container Environments</h3>
         <p style="color: #666; font-size: 1em; margin-bottom: 15px; font-weight: 600;">📅 Time: 2:40 - 3:20 PM</p>
         <p style="font-weight: bold; color: #666; margin-bottom: 8px; font-size: 1em;">Topic Abstract:</p>
-        <p style="font-size: 1.05em; line-height: 1.6; color: #555;">TBD</p>
+        <p style="font-size: 1.05em; line-height: 1.6; color: #555;">This tutorial delves into the I/O bottleneck of container image loading and introduces a novel solution, TrIO. TrIO proposes a memory-oriented image abstraction and a runtime page cache to achieve efficient image service. TrIO is open sourced and integrated into openEuler, and published in FAST'25.</p>
     </div>
     <div style="flex: 1.5; text-align: center; border-left: 1px solid #eee; padding-left: 30px; min-width: 350px; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;">
         <img src="{{ '/assets/images/yubo.jpeg' | relative_url }}" alt="Speaker" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0;">
@@ -107,3 +107,4 @@ permalink: /conference-activities/eurosys2026/tutorial/
     </div>
 
 </div>
+
