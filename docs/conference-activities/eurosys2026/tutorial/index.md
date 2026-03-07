@@ -58,7 +58,7 @@ permalink: /conference-activities/eurosys2026/tutorial/
         <p style="font-size: 1.05em; line-height: 1.6; color: #555;">TBD</p>
     </div>
     <div style="flex: 1.5; text-align: center; border-left: 1px solid #eee; padding-left: 30px; min-width: 350px; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;">
-        <img src="{{ '/assets/images/speaker3.jpg' | relative_url }}" alt="Speaker" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0;">
+        <img src="{{ '/assets/images/yubo.jpeg' | relative_url }}" alt="Speaker" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0;">
         <p style="margin: 15px 0 8px 0; font-weight: bold; color: #0366d6; font-size: 1.1em;">Yubo Liu</p>
         <p style="font-size: 0.92em; color: #555; line-height: 1.6; text-align: left; width: 100%;">
             Dr. Yubo Liu is a research scientist at Huawei. His research focuses on building high-performance storage, memory, and HPC systems. He has many publications in top conferences/journals like FAST and TOS. He served as a PC member and reviewer for several flagship conferences in multiple fields, including MSST, IPDPS, NAS, etc.
@@ -105,4 +105,5 @@ permalink: /conference-activities/eurosys2026/tutorial/
             Mohamed is currently a principal engineer and TL for the Serverless AI team at Huawei Edinburgh Research Centre. He earned his PhD in Informatics from The University of Edinburgh in 2020. His research focuses on LLM serving engines, Agentic AI and networking for AI including congestion control for distributed training jobs. Before joining Huawei, Mohamed served as postdoctoral researcher at both The University of Edinburgh and the University of Surrey. Mohamed also served as CTO of a multi-million tech company for 2 years. 
         </p>
     </div>
+
 </div>
