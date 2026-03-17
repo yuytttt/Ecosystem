@@ -135,4 +135,3 @@ permalink: /conference-activities/eurosys2026/tutorial/
   <p style="color: #856404; font-size: 1.05em; margin-bottom: 25px;">Attend all tutorials, collect every puzzle piece, and bring them to the registration desk to claim your reward.</p>
   <img src="{{ '/assets/images/final.PNG' | relative_url }}" alt="Prize" style="max-width: 350px; width: 100%; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);">
 </div>
-</div>
