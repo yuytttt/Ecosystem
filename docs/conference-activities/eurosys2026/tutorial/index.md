@@ -59,7 +59,7 @@ permalink: /conference-activities/eurosys2026/tutorial/
 
 <!-- Card 2 -->
 <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 24px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); background: white;">
-    <h3 style="margin-top: 0; color: #0366d6; font-size: 1.2em; font-weight: 700; margin-bottom: 10px;">EulerCopilot - Key Technologies and Practices of Intelligent Fault Diagnosis and Optimization in openEuler</h3>
+    <h3 style="margin-top: 0; color: #0366d6; font-size: 1.2em; font-weight: 700; margin-bottom: 10px;">openEuler AgentOS - Practices of Intelligent Fault Diagnosis and Tuning in openEuler</h3>
     <p style="color: #666; font-size: 0.95em; margin-bottom: 12px; font-weight: 600;">📅 Time: 09:40 - 10:20 AM</p>
     <div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
         <div style="flex: 1; min-width: 200px;">
@@ -68,7 +68,7 @@ permalink: /conference-activities/eurosys2026/tutorial/
         </div>
         <div style="width: 160px; flex-shrink: 0; text-align: center;">
             <img src="{{ '/assets/images/wanglei.jpg' | relative_url }}" alt="Speaker" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0; display: block; margin: 0 auto 8px auto;">
-            <p style="margin: 0 0 6px 0; font-weight: bold; color: #0366d6; font-size: 0.95em;">Wang Lei</p>
+            <p style="margin: 0 0 6px 0; font-weight: bold; color: #0366d6; font-size: 0.95em;">Lei Wang</p>
             <p style="font-size: 0.82em; color: #555; line-height: 1.5; margin: 0; text-align: left;">Chief architect of EulerCopilot at Huawei. Expert in LLM Agents, Serverless, and DevOps. Author of "Microservice Architecture and Practice" and other books.</p>
         </div>
         <div style="width: 140px; flex-shrink: 0; text-align: center;">
@@ -90,7 +90,7 @@ permalink: /conference-activities/eurosys2026/tutorial/
 
 <!-- Card 3 -->
 <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 24px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); background: white;">
-    <h3 style="margin-top: 0; color: #0366d6; font-size: 1.2em; font-weight: 700; margin-bottom: 10px;">LLM-LA - LLM Load-Aware Load Balancing</h3>
+    <h3 style="margin-top: 0; color: #0366d6; font-size: 1.2em; font-weight: 700; margin-bottom: 10px;">Nevis Scheduler - LLM Load-Aware Load Balancing</h3>
     <p style="color: #666; font-size: 0.95em; margin-bottom: 12px; font-weight: 600;">📅 Time: 11:00 - 11:40 AM</p>
     <div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
         <div style="flex: 1; min-width: 200px;">
@@ -98,9 +98,9 @@ permalink: /conference-activities/eurosys2026/tutorial/
             <p style="font-size: 0.95em; line-height: 1.6; color: #555; margin: 0;">Variability in LLM input and output token lengths leads to load imbalance in multi-instance serving systems, where short and long requests share queues and increase waiting time and tail latency. This tutorial introduces LLM-LA, a load-aware request management system for LLM workloads, explaining its design and practical deployment in serving frameworks.</p>
         </div>
         <div style="width: 160px; flex-shrink: 0; text-align: center;">
-            <img src="{{ '/assets/images/saeid.jpg' | relative_url }}" alt="Speaker" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0; display: block; margin: 0 auto 8px auto;">
-            <p style="margin: 0 0 6px 0; font-weight: bold; color: #0366d6; font-size: 0.95em;">Saeid Ghafouri</p>
-            <p style="font-size: 0.82em; color: #555; line-height: 1.5; margin: 0; text-align: left;">Research Scientist at Huawei Edinburgh. PhD from Queen Mary University of London. Focuses on LLM serving infrastructure and distributed inference systems.</p>
+            <img src="{{ '/assets/images/ahmed.jpg' | relative_url }}" alt="Speaker" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0; display: block; margin: 0 auto 8px auto;">
+            <p style="margin: 0 0 6px 0; font-weight: bold; color: #0366d6; font-size: 0.95em;">Prof. Ahmed Ali Eldin Hassan</p>
+            <p style="font-size: 0.82em; color: #555; line-height: 1.5; margin: 0; text-align: left;">System Engineer Expert at Huawei Edinburgh. Affiliated with Chalmers University of Technology. Works on system architecture and large-scale infrastructure.</p>
         </div>
         <div style="width: 140px; flex-shrink: 0; text-align: center;">
             <p style="font-size: 0.85em; color: #999; margin-bottom: 8px; font-weight: 600;">🧩 Mystery Gift Piece</p>
@@ -120,7 +120,7 @@ permalink: /conference-activities/eurosys2026/tutorial/
         </div>
         <div style="width: 160px; flex-shrink: 0; text-align: center;">
             <img src="{{ '/assets/images/mohamed.jpg' | relative_url }}" alt="Speaker" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0; display: block; margin: 0 auto 8px auto;">
-            <p style="margin: 0 0 6px 0; font-weight: bold; color: #0366d6; font-size: 0.95em;">Mohamed Kassem</p>
+            <p style="margin: 0 0 6px 0; font-weight: bold; color: #0366d6; font-size: 0.95em;">Dr. Mohamed Kassem</p>
             <p style="font-size: 0.82em; color: #555; line-height: 1.5; margin: 0; text-align: left;">Principal engineer at Huawei Edinburgh. PhD from University of Edinburgh (2020). Focuses on LLM serving engines and Agentic AI. Former CTO of a multi-million tech company.</p>
         </div>
         <div style="width: 140px; flex-shrink: 0; text-align: center;">
